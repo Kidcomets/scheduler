@@ -16,6 +16,6 @@ import jakarta.servlet.http.HttpServletResponse;
 		protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
 			req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, resp);
-		}
+		}//주석
 	}
 
