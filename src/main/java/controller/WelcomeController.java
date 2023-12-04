@@ -12,7 +12,7 @@ import jakarta.servlet.http.HttpServletResponse;
 public class WelcomeController extends HttpServlet{
 	
 	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {//dd
 
 		req.getRequestDispatcher("/WEB-INF/view/welcome.jsp").forward(req, resp);
 	}
